@@ -5,7 +5,7 @@ from pikepdf import Pdf
 import argparse
 import re
 
-def crack_password(digits, filename, pattern):
+def crack_password(digits)
     n = 1
     n_max = 9999999999999999999 % (10**digits)
     while n < n_max + 1:
